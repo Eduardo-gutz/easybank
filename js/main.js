@@ -6,10 +6,10 @@ btn.addEventListener('click', (event) => {
   if (menu.classList.contains('nav-bar__menu_active')) {
     menu.classList.remove('nav-bar__menu_active');
     btn.title = 'active menu';
-    ham.src = '../images/icon-hamburger.svg';
+    ham.src = 'images/icon-hamburger.svg';
   } else {
     btn.title = 'close menu';
     menu.classList.add('nav-bar__menu_active');
-    ham.src = '../images/icon-close.svg';
+    ham.src = 'images/icon-close.svg';
   }
 });
